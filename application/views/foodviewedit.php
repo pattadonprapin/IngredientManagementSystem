@@ -62,7 +62,7 @@
                 <?php foreach ($foodeditinfo["allIng"] as $row) { ?>
                 <option  
                 <?php
-                if($row["ingredientinfoID"]==$allin["ingredientID"])
+                if($row["ingredientinfoID"]==$allin["foodingredientID"])
                 {
                   ?> 
                   selected="selected"

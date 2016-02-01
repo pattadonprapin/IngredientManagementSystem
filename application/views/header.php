@@ -12,26 +12,31 @@
     <title>Ingredient Analysis</title>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-<script src="<?php echo base_url('assets/js/addingredient.js'); ?>"></script> 
-    <script src="<?php echo base_url('assets/js/editingredient.js'); ?>"></script>
-    <!-- <script src="<?php echo base_url('assets/js/jj.js'); ?>"></script> -->
+    
+
+
+      
+ <script src="<?php echo base_url('assets/js/jquery-1.11.3.min.js'); ?>"></script>
+    
+         <script src="<?php echo base_url('assets/js/jquery-2.1.1.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/moment-with-locales.js'); ?>"></script>
+
+
+
+
+ 
     <script src="<?php echo base_url('assets/js/angular.min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/validator.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap-datepicker.js'); ?>"></script>
+
     <script src="<?php echo base_url('assets/js/bootstrap-filestyle.min.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap-filestyle.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/jasny-bootstrap.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/jasny-bootstrap.min.js'); ?>"></script>
 
-
-
-
-
-
-
-
+          <script src="<?php echo base_url('assets/js/addingredient.js'); ?>"></script> 
+   <!-- <script src="<?php echo base_url('assets/js/editingredient.js'); ?>"></script> -->
 
     <!-- Custom CSS -->
     <link href="<?php echo base_url('assets/css/business-casual.css'); ?>" rel="stylesheet">
@@ -39,6 +44,7 @@
     <link href="<?php echo base_url('assets/css/jasny-bootstrap.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/jasny-bootstrap.css.map'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
+     <link href="<?php echo base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet">
     <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.2.0/css/font-awesome.min.css">
     <link href="<?php echo base_url('assets/css/logo-nav.css'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/datepicker.css'); ?>" rel="stylesheet">
@@ -48,6 +54,9 @@
     <link href="./css/prettify-1.0.css" rel="stylesheet">
     <link href="./css/base.css" rel="stylesheet">
     <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+      
+       
 
 
     <!-- Fonts -->
@@ -77,8 +86,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <div class="brand">Ingredient Analysis</div>
-        <div class="address-bar">CREATE YOU OWN INGREDIENT | ANALYSIS </div>
+        <div class="brand">Ingredient Management System</div>
+        <div class="address-bar">CREATE YOU OWN INGREDIENT | CALCULATE </div>
 
         <!-- Navigation -->
         <nav class="navbar navbar-default" role="navigation">
@@ -108,7 +117,7 @@
                             <a href="<?php echo base_url('index.php/Ingredientcontroller/viewingredient'); ?>">Ingredient</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url('index.php/Analysiscontroller/viewanalysis'); ?>">Analysis</a>
+                            <a href="<?php echo base_url('index.php/Calculatecontroller/viewcalculate'); ?>">Calculate</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url('index.php/Reportcontroller/viewreport/2015/11'); ?>">Report</a>
